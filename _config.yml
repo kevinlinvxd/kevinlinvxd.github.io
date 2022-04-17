@@ -1,0 +1,38 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://kevinlinvxd.github.io
+title: Kevin Lin
+email: kevinlin@gmail.com
+author: Kevin Lin
+description: > # "Kevin Lin's Portfolio"
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+# Build sitemap
+gems:
+  - jekyll-sitemap
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - icon: linkedin
+    title: LinkedIn
+    url: https://www.linkedin.com/in/kevin-lin-vxd/
+  - icon: github
+    title: GitHub
+    url: https://github.com/kevinlinvxd
+  - icon: file-pdf-o
+    title: Resume
+    url: http://www.kevinlinvxd.github.io/rsc/resume.pdf
+  - icon: envelope-o
+    title: Email
+    url: mailto:kevinlin.vxd@gmail.com
