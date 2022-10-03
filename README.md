@@ -1,6 +1,6 @@
-## Welcome to my Personal Portfolio!
+## Welcome to my Portfolio!
 
-This is my personal website that I've started up just as a way for me to re-familiarize myself with JavaScript, HTML, and CSS. Plus, I get to host a website on GitHub Pages for free, so why not?
+This is my personal website that I've started up just as a way for me to re-familiarize myself with JavaScript, HTML, and CSS.
 
 This website was built with Jekyll and is hosted on GitHub Pages. Although bare right now, eventually I will be adding in my personal projects, a blog section, etc.
 

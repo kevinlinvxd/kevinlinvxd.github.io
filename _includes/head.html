@@ -1,24 +1,45 @@
 <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="{{ site.author }}" />
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
+  <title>
+    {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+  </title>
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="assets/css/landing-page.css" rel="stylesheet" />
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <script src="https://use.fontawesome.com/071362647b.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:500"
+    rel="stylesheet"
+  />
 
-    <!-- Custom Fonts -->
-    <script src="https://use.fontawesome.com/071362647b.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-
-	<!-- Icon -->
-	<!-- Change to actual Icon at some point -->
-	<link rel="shortcut icon" href="#">
+  <!-- Icon -->
+  <!-- Change to actual Icon at some point -->
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ '/assets/favicon/apple-touch-icon.png' }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ '/assets/favicon/favicon-32x32.png' }}"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ '/assets/favicon/favicon-16x16.png' }}"
+  />
+  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' }}" />
 </head>
