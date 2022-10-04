@@ -8,22 +8,13 @@
   <title>
     {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
   </title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Custom CSS -->
-  <link href="assets/css/landing-page.css" rel="stylesheet" />
-
-  <!-- Custom Fonts -->
-  <script src="https://use.fontawesome.com/071362647b.js"></script>
-  <link
-    href="https://fonts.googleapis.com/css?family=Quicksand:500"
-    rel="stylesheet"
+  <meta
+    name="description"
+    content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
   />
 
-  <!-- Icon -->
-  <!-- Change to actual Icon at some point -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl
+  }}">
   <link
     rel="apple-touch-icon"
     sizes="180x180"
@@ -41,5 +32,9 @@
     sizes="16x16"
     href="{{ '/assets/favicon/favicon-16x16.png' }}"
   />
-  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' }}" />
+  <link
+    rel="manifest"
+    href="{{ '/assets/favicon/site.webmanifest' }}
+    "
+  />
 </head>

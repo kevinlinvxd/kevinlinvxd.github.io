@@ -2,11 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://kevinlinvxd.github.io
 title: Kevin Lin
-email: kevinlin@gmail.com
+description: My personal portfolio
+url: https://kevinlinvxd.github.io # the base hostname & protocol for your site
 author: Kevin Lin
-description: > # "Kevin Lin's Portfolio"
+email: kevinlin.vxd@gmail.com
+
+google-analytics:
+  id: ""
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -18,21 +21,3 @@ permalink: pretty
 # Build sitemap
 gems:
   - jekyll-sitemap
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - icon: linkedin
-    title: LinkedIn
-    url: https://www.linkedin.com/in/kevinlinvxd
-  - icon: github
-    title: GitHub
-    url: https://github.com/kevinlinvxd
-  - icon: file-pdf-o
-    title: Resume
-    url: https://kevinlinvxd.github.io/rsc/resume.pdf
-  - icon: envelope-o
-    title: Email
-    url: mailto:kevinlin.vxd@gmail.com

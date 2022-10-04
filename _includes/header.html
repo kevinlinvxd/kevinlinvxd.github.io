@@ -1,28 +1,38 @@
-<div id="background-css">
-  <div id="background-header" class="intro-header alt-font">
-    <div class="container">
-      <div class="intro-message">
-        <h1 class="alt-font">{{ page.author}}</h1>
-        <h3 class="alt-font">{{ page.description }}</h3>
-        <hr class="intro-divider" />
-      </div>
-      <div class="intro-social">
-        <div class="social-click">
-          <ul class="list-inline intro-social-buttons">
-            {% for social in site.social %}
-            <li>
-              <a
-                href="{{ social.url }}"
-                target="_blank"
-                class="btn btn-default social-btn"
-                ><i class="fa fa-{{ social.icon }}"></i> &nbsp
-                <span class="network-name">{{ social.title }}</span></a
-              >
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
+<div id="particles-js">
+  <div class="header">
+    <h1>
+      <span class="site-title"> Kevin Lin</span>
+      <span class="site-description">Computer Engineering @ Iowa State</span>
+    </h1>
+    <div class="header-icons">
+      <a
+        aria-label="LinkedIn"
+        target="_blank"
+        href="https://linkedin.com/in/kevinlinvxd"
+        ><i class="icon fa fa-linkedin"></i
+      ></a>
+      <a
+        aria-label="Github"
+        target="_blank"
+        href="https://github.com/kevinlinvxd"
+        ><i class="icon fa fa-github" aria-hidden="true"></i
+      ></a>
+      <a
+        aria-label="Resume"
+        target="_blank"
+        href="https://kevinlinvxd.github.io/rsc/resume.pdf"
+        ><i class="icon fa fa-file-pdf-o" aria-hidden="true"></i
+      ></a>
+      <a aria-label="Email" target="_blank" href="mailto:kevinlin.vxd@gmail.com"
+        ><i class="icon fa fa-envelope" aria-hidden="true"></i
+      ></a>
     </div>
+    <!-- <div class="header-links">
+      <a class="link" href="#about" data-scroll>About Me</a>
+      <a class="link" href="#projects" data-scroll>Projects</a>
+    </div> -->
   </div>
+  <a class="down" href="#about" data-scroll
+    ><i class="icon fa fa-chevron-down" aria-hidden="true"></i
+  ></a>
 </div>
