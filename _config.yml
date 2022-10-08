@@ -8,9 +8,6 @@ url: https://kevinlinvxd.github.io # the base hostname & protocol for your site
 author: Kevin Lin
 email: kevinlin.vxd@gmail.com
 
-google-analytics:
-  id: ""
-
 # ----------------------- #
 #    Jekyll & Plugins     #
 # ----------------------- #
